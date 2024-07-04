@@ -1,6 +1,12 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 # Bucket Brigade - Analog Delay
 
+## Discord
+
+[Analog Channel](https://discord.com/channels/1009193568256135208/1237709604045979740)
+
+[Capacitor Discussion](https://discord.com/channels/1009193568256135208/1252657914167169134)
+
 # Tiny Tapeout Analog Resources ... 
 
 - [Read the documentation for project](docs/info.md)
