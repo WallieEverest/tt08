@@ -1,6 +1,16 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 # Bucket Brigade - Analog Delay
 
+## Inspiration
+
+[Philips Technical Review](https://www.worldradiohistory.com/Archive-Company-Publications/Philips-Technical-Review/70s/Philips-Technical-Review-1970.pdf)
+
+Articles on page 97 and 266.
+
+## Stretch Goal
+
+Built (a rare) crunchy analog delay for guitar effects pedal.
+
 ## Discord
 
 [Analog Channel](https://discord.com/channels/1009193568256135208/1237709604045979740)
