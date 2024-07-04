@@ -9,7 +9,13 @@ Articles on page 97 and 266.
 
 ## Stretch Goal
 
-Built (a rare) crunchy analog delay for guitar effects pedal.
+Build (a rare) crunchy analog delay for guitar effects pedal.
+
+## Chalenges
+
+Intend to use a capacitor primitive. If the MiM model is correct for L3/4, then 0.0022 pF/um^2. The analog area is 160 x 225 um, yeilding 36x 2.2 pF capacitors. This is reduced by 50% to allow room for the OpenLane digital area.
+
+Simlation is needed to learn if a smaller capcitor is acceptable with small MOSFETS used in the Skywater PDK.
 
 ## Discord
 
