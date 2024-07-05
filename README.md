@@ -1,11 +1,15 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 # Bucket Brigade - Analog Delay
 
+![Top Level Drawing](docs/sample.png)
+
 ## Inspiration
 
 [Philips Technical Review](https://www.worldradiohistory.com/Archive-Company-Publications/Philips-Technical-Review/70s/Philips-Technical-Review-1970.pdf)
 
 Articles on page 97 and 266 describe a device (Fig 18) with 52 capacitors on a 1.2 x 1.8 mm die, circa 1970.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Bucket-brigade_device)
 
 ## Stretch Goal
 
