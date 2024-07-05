@@ -11,11 +11,15 @@ Articles on page 97 and 266.
 
 Build (a rare) crunchy analog delay for guitar effects pedal.
 
-## Chalenges
+## Challenges
 
-Intend to use a capacitor primitive. If the MiM model is correct for L3/4, then 0.0022 pF/um^2. The analog area is 160 x 225 um, yeilding 36x 2.2 pF capacitors. This is reduced by 50% to allow room for the OpenLane digital area.
+Intend to use a capacitor primitive. If the MiM model for L3/L4 indicates 0.0022 pF/um^2. The TT8 analog area is 160 x 225 um, yeilding 36x 2.2 pF capacitors. This will be reduced by 50% for the OpenLane2 digital area.
 
-Simlation is needed to learn if a smaller capcitor is acceptable with small MOSFETS used in the Skywater PDK.
+Simlation is needed to learn if a smaller capacitor is acceptable with small MOSFETS used in the Skywater 130 PDK.
+
+## Installation
+
+[Tiny Tapeout 8](https://github.com/TinyTapeout/tinytapeout-08)
 
 ## Reference Designs
 - [Matt Venn](https://github.com/mattvenn/tt06-analog-r2r-dac
