@@ -22,9 +22,9 @@ Simlation is needed to learn if a smaller capacitor is acceptable with small MOS
 [Tiny Tapeout 8](https://github.com/TinyTapeout/tinytapeout-08)
 
 ## Reference Designs
-- [Matt Venn](https://github.com/mattvenn/tt06-analog-r2r-dac
-- [Analog Specifications](https://tinytapeout.com/specs/analog/)
-- [FAQ](https://tinytapeout.com/faq/)
+- [Matt Venn](https://github.com/mattvenn/tt06-analog-r2r-dac)
+- [Analog Specifications](https://tinytapeout.com/specs/analog)
+- [FAQ](https://tinytapeout.com/faq)
 
 ## Discord
 
@@ -33,4 +33,4 @@ Simlation is needed to learn if a smaller capacitor is acceptable with small MOS
 
 ## Submission
 
-- [Tiny Tapeout App](https://app.tinytapeout.com/).
+- [Tiny Tapeout App](https://app.tinytapeout.com)
