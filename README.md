@@ -13,7 +13,7 @@ Build a (rare) crunchy analog delay for a guitar effects pedal.
 
 ## Challenges
 
-Intend to use a capacitor primitive. If the MiM model for L3/L4 indicates 0.0022 pF/um^2. The TT8 analog area is 160 x 225 um, yeilding 36x 2.2 pF capacitors. This will be reduced by 50% for the OpenLane2 digital area.
+Intend to use a capacitor primitive. The MiM capacitor model for L3/L4 indicates 0.0022 pF/um^2. The TT8 analog area is 160 x 225 um, yeilding 36x 2.2 pF capacitors. This will be reduced by 50% for the OpenLane2 digital area.
 
 Simlation is needed to learn if a smaller capacitor is acceptable with small MOSFETS used in the Skywater 130 PDK.
 
