@@ -23,7 +23,7 @@ Simlation is needed to learn if a smaller capacitor is acceptable with small MOS
 - [Tools](https://www.tinytapeout.com/guides/local-hardening)
 
 ## Reference Designs
-- [Matt Venn](https://github.com/mattvenn/tt06-analog-r2r-dac)
+- [Matt Venn R2R DAC](https://github.com/mattvenn/tt08-analog-r2r-dac-3v3)
 - [Analog Specifications](https://tinytapeout.com/specs/analog)
 - [FAQ](https://tinytapeout.com/faq)
 
