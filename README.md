@@ -5,11 +5,11 @@
 
 [Philips Technical Review](https://www.worldradiohistory.com/Archive-Company-Publications/Philips-Technical-Review/70s/Philips-Technical-Review-1970.pdf)
 
-Articles on page 97 and 266.
+Articles on page 97 and 266 describe a device (Fig 18) with 52 capacitors on a 1.2 x 1.8 mm die, circa 1970.
 
 ## Stretch Goal
 
-Build (a rare) crunchy analog delay for guitar effects pedal.
+Build a (rare) crunchy analog delay for a guitar effects pedal.
 
 ## Challenges
 
