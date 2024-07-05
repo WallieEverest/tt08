@@ -19,7 +19,8 @@ Simlation is needed to learn if a smaller capacitor is acceptable with small MOS
 
 ## Installation
 
-[Tiny Tapeout 8](https://github.com/TinyTapeout/tinytapeout-08)
+- [Tiny Tapeout 8](https://github.com/TinyTapeout/tinytapeout-08)
+- [Tools](https://www.tinytapeout.com/guides/local-hardening)
 
 ## Reference Designs
 - [Matt Venn](https://github.com/mattvenn/tt06-analog-r2r-dac)
