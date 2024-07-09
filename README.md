@@ -22,12 +22,14 @@ Intend to use a capacitor primitive. The MiM capacitor model for L3/L4 indicates
 Simulation is needed to learn if a smaller capacitor is acceptable with the MOSFETS used by Skywater 130.
 
 ## Installation
-
+- [VirtuaBox OVA](https://sky130-vm.tinytapeout.com/tinytapeout_analog_vm.ova)
+- [Tiny Tapeout Analog Design VM with Skywater 130 PDK](https://github.com/TinyTapeout/analog-virtualbox-vm-sky130a)
+- [Local Hardening](https://www.tinytapeout.com/guides/local-hardening)
 - [Tiny Tapeout 8](https://github.com/TinyTapeout/tinytapeout-08)
-- [Tools](https://www.tinytapeout.com/guides/local-hardening)
 
 ## Reference Designs
 - [Matt Venn R2R DAC](https://github.com/mattvenn/tt08-analog-r2r-dac-3v3)
+- [Pat Deegan](https://www.youtube.com/watch?v=Eu_crbcBdNM)
 - [Analog Specifications](https://tinytapeout.com/specs/analog)
 - [FAQ](https://tinytapeout.com/faq)
 
