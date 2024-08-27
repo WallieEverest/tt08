@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "sky130fd_sc_hd")(type "KiCad")(uri "${PDK_LIBS}/sky130A/sky130_fd_sc_hd.kicad_sym")(options "")(descr "1.8V high-density logic"))
+  (lib (name "sky130fd_sc_pr")(type "KiCad")(uri "${PDK_LIBS}/sky130A/sky130_fd_pr.kicad_sym")(options "")(descr "Primitive devices"))
+  (lib (name "sky130fd_sc_io")(type "KiCad")(uri "${PDK_LIBS}/sky130A/sky130_fd_io.kicad_sym")(options "")(descr "Standard I/O"))
+  (lib (name "sky130fd_sc_hvl")(type "KiCad")(uri "${PDK_LIBS}/sky130A/sky130_fd_sc_hvl.kicad_sym")(options "")(descr "3.3V logic"))
+)
