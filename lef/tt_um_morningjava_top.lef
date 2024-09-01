@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_example
+MACRO tt_um_morningjava_top
   CLASS BLOCK ;
-  FOREIGN tt_um_example ;
+  FOREIGN tt_um_morningjava_top ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
   PIN VGND
@@ -530,6 +530,6 @@ MACRO tt_um_example
         RECT 101.320 202.135 134.490 223.680 ;
         RECT 136.890 202.135 137.790 223.680 ;
   END
-END tt_um_example
+END tt_um_morningjava_top
 END LIBRARY
 
