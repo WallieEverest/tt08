@@ -26,6 +26,7 @@ Simulation is needed to learn if a smaller capacitor is acceptable with the MOSF
 - [Tiny Tapeout Analog Design VM with Skywater 130 PDK](https://github.com/TinyTapeout/analog-virtualbox-vm-sky130a)
 - [Local Hardening](https://www.tinytapeout.com/guides/local-hardening)
 - [Tiny Tapeout 8](https://github.com/TinyTapeout/tinytapeout-08)
+- [KLayout Tutorial](https://www.youtube.com/watch?v=WUEh_NahYGU&list=PL12BCN5zxKhysQPbl0Fy0a6x0fiCPJZB-) v0.29.6 32-bit installer as Win11 admininstrator
 
 ## Reference Designs
 - [Matt Venn R2R DAC](https://github.com/mattvenn/tt08-analog-r2r-dac-3v3)
