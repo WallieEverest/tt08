@@ -5,7 +5,7 @@ project:
   discord:      "morningjava"
   description:  "Switched capacitor delay line"
   language:     "Analog"
-  clock_hz:     100000
+  clock_hz:     0
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x2"          # Valid values for analog projects: 1x2, 2x2
