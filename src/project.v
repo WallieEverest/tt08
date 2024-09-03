@@ -1,7 +1,12 @@
-/*
- * Copyright (c) 2024 Your Name
- * SPDX-License-Identifier: Apache-2.0
- */
+// Title:   Clock prescaler
+// File:    pproject.v
+// Author:  Wallie Everest
+// Date:    02-SEP-2024
+// URL:     https://github.com/wallieeverest/tt08
+// License: Apache 2.0
+//
+// Description:
+//   Divides the clock into non-overlaping phases.
 
 `default_nettype none
 
@@ -20,11 +25,22 @@ module tt_um_morningjava (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-  // All output pins must be assigned. If not used, assign to 0.
-  assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
+  assign uo_out[0] = clk;
+  assign uo_out[1] = clk;
+  assign uo_out[7:2] = 0;
   assign uio_out = 0;
   assign uio_oe  = 0;
 
+  reg [1:0] counter;
+  reg [1:0] phase;
+
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, clk, rst_n, 1'b0};
+  //wire _unused = &{ena, rst_n, 1'b0};
+
+  // Phase drive unit
+  always @( posedge clk ) begin : phase_drive
+    phase[0] <= ( counter == 1 );
+    phase[1] <= ( counter == 3 );
+    counter <= counter + 1;
+  end
 endmodule
