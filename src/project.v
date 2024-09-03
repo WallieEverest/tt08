@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_mattvenn_r2r_dac_3v3 (
+module tt_um_morningjava (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
     input  wire       VAPWR,    // 3.3v power supply
