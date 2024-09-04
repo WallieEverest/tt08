@@ -2,7 +2,7 @@
 
 // just a stub to keep the Tiny Tapeout tools happy
 
-module tt_um_mattvenn_r2r_dac_3v3 (
+module tt_um_morningjava_r2r_from_matt (
     input  wire       VGND,
     input  wire       VDPWR,    // 1v8
     input  wire       VAPWR,    // 3v3

@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_mattvenn_r2r_dac_3v3
+MACRO tt_um_morningjava_r2r_from_matt
   CLASS BLOCK ;
-  FOREIGN tt_um_mattvenn_r2r_dac_3v3 ;
+  FOREIGN tt_um_morningjava_r2r_from_matt ;
   ORIGIN 0.000 0.000 ;
   SIZE 145.360 BY 225.760 ;
   PIN clk
