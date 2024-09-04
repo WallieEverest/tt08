@@ -1,4 +1,7 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
+# Note:
+The GDSII file is from the R2R DAC project.
+
 # Bucket Brigade - Analog Delay
 
 ![Top Level Drawing](docs/sample.png)
