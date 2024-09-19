@@ -31,6 +31,7 @@ Simulation is needed to learn if a smaller capacitor is acceptable with the MOSF
 - [Tiny Tapeout 8](https://github.com/TinyTapeout/tinytapeout-08)
 - [KLayout Tutorial](https://www.youtube.com/watch?v=WUEh_NahYGU&list=PL12BCN5zxKhysQPbl0Fy0a6x0fiCPJZB-) v0.29.6 32-bit installer as Win11 admininstrator
 - [PDK for KLayout](https://github.com/efabless/sky130_klayout_pdk)
+- [Analog Design Guide](https://tinytapeout.com/specs/analog/#instructions-for-creating-and-submitting-an-analog-design)
 
 ## Reference Designs
 - [Matt Venn R2R DAC](https://github.com/mattvenn/tt08-analog-r2r-dac-3v3)
@@ -46,3 +47,11 @@ Simulation is needed to learn if a smaller capacitor is acceptable with the MOSF
 ## Submission
 
 - [Tiny Tapeout App](https://app.tinytapeout.com)
+
+## Other notes
+- [Instructions for updating project info](https://docs.google.com/document/d/16YdQM4Lh3ZazVcNXhO2Ssty5hzKGp0fj3FKmcbMlFZo/edit#heading=h.mcvyaz7a8clr)
+
+1. Q: Determine why the KLayout DFM passes while Magic DFM fails. Why isn’t the KLayout technology file good enough? A: They're both needed because neither is 100%
+2. Q: Learn how the LEF parser operates, and what it requires. Do we need to be experts with both KLayout and Magic? A: [Use Matt's script](https://github.com/mattvenn/tt08-analog-ring-osc/blob/main/mag/tcl/update_gds_lef.tcl)
+3. Q: Discover why the power rails for tt08-analog-r2r-dac-3v3 are different than tt08-vga-fun, etc. What are the Metal4/5 connection guidelines and who performs the analog power routing? A: We now offer 3.3v rails as well. You have to have an extra power line correctly labelled and the right option set in info.yaml. You can use my [Makefile to create the template with correct power rails](https://github.com/mattvenn/tt08-analog-r2r-dac-3v3/blob/main/mag/Makefile#L17)
+4. Q: Too much chatter from the OpenRoad, OpenLane, Caravel, Caravan, and Efabless discussions groups makes the PDK confusing. What are the specific PDK rules for TinyTapeout integration? A: Yeah, it can be confusing. For analog, make sure you've read the [Analog insructions](https://tinytapeout.com/specs/analog/#instructions-for-creating-and-submitting-an-analog-design). We are all using mostly the same PDK and DRC. You can use the analog VM or follow the recipe to get exactly the same as us if you want. That can make resolving DRC issues later easier in case the rules have changed (they have just been changing).
